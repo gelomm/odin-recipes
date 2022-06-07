@@ -23,11 +23,12 @@ h3{
 
 /*First button*/
 .water{
-    display: contents;
+    display: block;
     border: none;
     border-radius: 10%;
-    
-
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .wtrmln{
@@ -35,18 +36,18 @@ h3{
     width: 125px;
     border-radius: 10%;
 
-    margin-left: auto;
-    margin-right: auto;
     
 }
 /*End of first button*/
 
 /*Second button*/
 .second{
-    display: contents;
+    display: block;
     border: none;
     border-radius: 10%;
-    
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .tuna{
@@ -54,26 +55,24 @@ h3{
     width: 125px;
     border-radius: 10%;
     
-    margin-left: auto;
-    margin-right: auto;
    
 }
 /*End of second button*/
 
 /*Third button*/
 .third{
-    display: contents;
+    display: block;
     border: none;
     border-radius: 10%;
-    
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .strawberry{
     height: 120px;
     width: 125px;
     border-radius: 10%;
     
-    margin-left: auto;
-    margin-right: auto;
     
 }
 /*End of Third button*/
