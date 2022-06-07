@@ -9,7 +9,19 @@ body{
     margin-right: auto;
     width: 10%;
 }
+.odin{
+    background-color: #4B8673;
+    color: white;
+    border: none;
+    display: block;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
 h1, h6{
+    
     text-align: center;
     font-family: georgia;
     font-style: oblique;
@@ -23,6 +35,7 @@ h3{
 
 /*First button*/
 .water{
+    background-color: #5FD068;
     display: block;
     border: none;
     border-radius: 10%;
@@ -42,6 +55,7 @@ h3{
 
 /*Second button*/
 .second{
+    background-color: #5FD068;
     display: block;
     border: none;
     border-radius: 10%;
@@ -61,6 +75,7 @@ h3{
 
 /*Third button*/
 .third{
+    background-color: #5FD068;
     display: block;
     border: none;
     border-radius: 10%;
