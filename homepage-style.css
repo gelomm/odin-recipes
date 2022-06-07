@@ -7,7 +7,7 @@ body{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 10%;
 }
 h1, h6{
     text-align: center;
@@ -20,11 +20,13 @@ h3{
     font-family: 'Courier New', Courier, monospace;
 }
 
+
 /*First button*/
 .water{
+    display: contents;
     border: none;
     border-radius: 10%;
-    margin-left: 180px;
+    
 
 }
 
@@ -32,33 +34,47 @@ h3{
     height: 120px;
     width: 125px;
     border-radius: 10%;
+
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 /*End of first button*/
 
 /*Second button*/
 .second{
+    display: contents;
     border: none;
     border-radius: 10%;
-    margin-left: 10px;
+    
 }
 
 .tuna{
     height: 120px;
     width: 125px;
     border-radius: 10%;
+    
+    margin-left: auto;
+    margin-right: auto;
+   
 }
 /*End of second button*/
 
 /*Third button*/
 .third{
+    display: contents;
     border: none;
     border-radius: 10%;
-    margin-left: 10px;
+    
 }
 .strawberry{
     height: 120px;
     width: 125px;
     border-radius: 10%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 /*End of Third button*/
 
