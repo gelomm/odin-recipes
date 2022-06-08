@@ -2,14 +2,14 @@
 body{
     background-color: #F5DF99;
 }
-.logo{
+.logo{ /*logo*/
     border-radius: 20%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 10%;
 }
-.odin{
+.odin{ /*logo configuration*/
     background-color: #0e4936;
     color: white;
     border: none;
@@ -20,20 +20,84 @@ body{
     margin-right: auto;
     width: 140px;
 }
-h1, h6{
+h1, h6{/*odin rec and name*/
     
     text-align: center;
     font-family: georgia;
     font-style: oblique;
 }
 
-h3{
+h3{ /*best of odin*/
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
+.wtrmln, .tuna, 
+.strawberry{
+    height: 120px;
+    width: 125px;
+    border-radius: 10%;
+}
 
-/*First button*/
+
+/**/
+@media screen and (max-width: 2000px ) {
+    /*First button*/
+    .water{
+        background-color: #72bb78;
+        
+        border: none;
+        border-radius: 10%;
+        margin-top: 5px;
+        margin-left: 725px;
+        margin-right: 5px;
+    }
+    
+    /*Second button*/
+    .second{
+        background-color: #72bb78;
+        
+        border: none;
+        border-radius: 10%;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    
+    /*End of second button*/
+    
+    /*Third button*/
+    .third{
+        background-color: #72bb78;
+        
+        border: none;
+        border-radius: 10%;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    }
+
+/*contact info links*/
+.tweet{
+    border: none;
+    background-color: #F5DF99;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.twttr{
+    height: 40px;
+    width: 40px;
+}
+
+/*mobile view*/
+@media screen and (max-width: 600px ) {
+
+    /*recipe buttons*/
+
+    /*First button*/
 .water{
     background-color: #72bb78;
     display: block;
@@ -43,15 +107,6 @@ h3{
     margin-left: auto;
     margin-right: auto;
 }
-
-.wtrmln{
-    height: 120px;
-    width: 125px;
-    border-radius: 10%;
-
-    
-}
-/*End of first button*/
 
 /*Second button*/
 .second{
@@ -64,13 +119,6 @@ h3{
     margin-right: auto;
 }
 
-.tuna{
-    height: 120px;
-    width: 125px;
-    border-radius: 10%;
-    
-   
-}
 /*End of second button*/
 
 /*Third button*/
@@ -83,26 +131,24 @@ h3{
     margin-left: auto;
     margin-right: auto;
 }
-.strawberry{
-    height: 120px;
-    width: 125px;
-    border-radius: 10%;
-    
-    
-}
-/*End of Third button*/
 
-.tweet{
-    border: none;
-    background-color: #F5DF99;
-    border-radius: 10px;
-    display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+
+    /*end of recipe buttons*/
+    .tweet{
+        border: none;
+        background-color: #F5DF99;
+        
+        margin-top: 50px;
+        margin-left: 20px;
+       
+    }
+    .twttr{
+        height: 30px;
+        width: 30px;
+    }
+    
 }
-.twttr{
-    height: 40px;
-    width: 40px;
-}
+
+
+
 
