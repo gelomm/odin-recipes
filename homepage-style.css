@@ -41,7 +41,7 @@ h3{ /*best of odin*/
 
 
 /**/
-@media screen and (max-width: 2000px ) {
+
     /*First button*/
     .water{
         background-color: #72bb78;
@@ -76,7 +76,7 @@ h3{ /*best of odin*/
         margin-left: 5px;
         margin-right: 5px;
     }
-    }
+    
 
 /*contact info links*/
 .tweet{
