@@ -28,6 +28,7 @@ h1, h6{
     border-style: dotted;
     color: white;
 }
+
 .desc{
     text-align: center;
     background-color: #5FD068;
@@ -35,6 +36,7 @@ h1, h6{
     border-bottom: dotted;
     border-top: dotted;
 }
+/*needs to resize for mobile format*/
 .description{
     font-size: medium;
     background-color: #4B8673;
@@ -73,6 +75,46 @@ h1, h6{
     margin-bottom: 10px;
     width: 800px;
 }
+
+@media  (max-width: 600px) {
+
+    .description{
+        font-size: medium;
+        background-color: #4B8673;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        width: 420px;
+    }
+    
+    .ing{
+        font-size: medium;
+        background-color: #F5DF99;
+        color: #4B8673;
+        border-style: dotted;
+        border-radius: 25px;
+        display: block;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        width: 420px;
+    }
+    .dir{
+        font-size: medium;
+        background-color: #F5DF99;
+        color: #4B8673;
+        border-style: dotted;
+        border-radius: 25px;
+        display: block;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        width: 420px;
+    }
+    
+} /*media end*/
 
 .home{
     border: none;
