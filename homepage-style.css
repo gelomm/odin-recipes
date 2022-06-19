@@ -25,11 +25,20 @@ h1, h6{/*odin rec and name*/
     text-align: center;
     font-family: georgia;
     font-style: oblique;
+    
 }
 
 h3{ /*best of odin*/
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+}
+
+.name-best{
+    background-color: #cccccc99;
+    color: #0e4936;
+    font-weight: bolder;
+    padding: 1px;
+    margin-top: 5px;
 }
 
 .wtrmln, .tuna, 
@@ -39,13 +48,35 @@ h3{ /*best of odin*/
     border-radius: 10%;
 }
 
+/*Display image background*/
+.backg{
+    background-image: url('Korean-Food-Cover.webp');
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+@media  (max-width: 600px) {
+    .backg{
+        background-image: url('Korean-Food-Cover.webp');
+        background-repeat: no-repeat;
+        background-color: #cccccc;
+        height: 410px;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+}
 
 /*display buttons horizontally*/
 .top{
     display: flex;
 }
 .top button{
-    background: #0e4936;
+    background: #0e493699;
     border: none;
     border-radius: 10px;
     margin: 5px;
