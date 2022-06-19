@@ -1,6 +1,8 @@
 
-body{
+body, html{
     background-color: #F5DF99;
+    height: 100%;
+    margin: 0;
 }
 .logo{ /*logo*/
     border-radius: 20%;
@@ -50,9 +52,9 @@ h3{ /*best of odin*/
 
 /*Display image background*/
 .backg{
-    
     background-image: linear-gradient(to bottom, #ffffff00 , #f5e099),
     url('Korean-Food-Cover.webp');
+    height: 50%;
     background-repeat: no-repeat;
     background-color: #cccccc;
     height: 550px;

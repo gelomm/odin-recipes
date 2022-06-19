@@ -1,5 +1,19 @@
 body{
     background-color: #F5DF99;
+    height: 30%;
+    margin: 0;
+}
+
+/*Background*/
+.backg{
+    background-image: linear-gradient(to bottom, #ffffff00 , #f5e099),
+    url('avocado-watermelon.jpg');
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
 
 h1, h6{
