@@ -64,6 +64,46 @@ h3{ /*best of odin*/
     position: relative;
 }
 
+
+/*display buttons horizontally*/
+.top{
+    display: flex;
+    justify-content: space-evenly;
+}
+.top button{
+    background: #0e493644;
+    backdrop-filter: blur(10px);
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+   /** flex: 1 1 0%;**/
+    
+}
+
+/*Contact info settings*/
+.tweet .twttr{
+    height: 40px;
+    width: 40px;
+    margin-top: 45px;
+    margin-left: 10px;
+    
+}
+/*Flex contact infos*/
+.cont{
+    background-color: #4B867399;
+    margin: 0;
+    display: flex;
+    height: 100px;
+    margin-top: 270px;
+}
+.cont div{
+    border: none;
+    background: none;
+    flex: auto;
+}
+
+/*mobile view*/
 @media  (max-width: 600px) {
     .backg{
         background-image: linear-gradient(to bottom, #ffffff00 , #f5e099),
@@ -75,35 +115,25 @@ h3{ /*best of odin*/
         background-size: cover;
         position: relative;
     }
-}
 
-/*display buttons horizontally*/
-.top{
-    display: flex;
-}
-.top button{
-    background: #0e493644;
-    backdrop-filter: blur(10px);
-    border: none;
-    border-radius: 10px;
-    margin: 5px;
-    padding: 10px;
-    flex: 1 1 0%;
-}
-
-/*Contact info settings*/
-.tweet .twttr{
-    height: 40px;
-    width: 40px;
-}
-/*Flex contact infos*/
-.cont{
-    display: flex;
-}
-.cont button{
-    border: none;
-    background: none;
-    flex: auto;
+    /**contact info mobile vIew**/
+    .tweet .twttr{
+        background-color: ;
+        height: 40px;
+        width: 40px;
+        margin-top: 20px;
+    }
+    /*Flex contact infos*/
+    .cont{
+        background-color: #4B867399;
+        display: flex;
+        margin-top: 430px;
+    }
+    .cont div{
+        border: none;
+        background: none;
+        flex: auto;
+    }
 }
 
 
