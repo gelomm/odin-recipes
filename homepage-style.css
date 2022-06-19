@@ -51,7 +51,8 @@ h3{ /*best of odin*/
 /*Display image background*/
 .backg{
     
-    background-image: linear-gradient(to bottom, #ffffff00 , #f5e099) ,url('Korean-Food-Cover.webp');
+    background-image: linear-gradient(to bottom, #ffffff00 , #f5e099),
+    url('Korean-Food-Cover.webp');
     background-repeat: no-repeat;
     background-color: #cccccc;
     height: 550px;
@@ -62,7 +63,8 @@ h3{ /*best of odin*/
 
 @media  (max-width: 600px) {
     .backg{
-        background-image: url('Korean-Food-Cover.webp');
+        background-image: linear-gradient(to bottom, #ffffff00 , #f5e099),
+        url('Korean-Food-Cover.webp');
         background-repeat: no-repeat;
         background-color: #cccccc;
         height: 410px;
