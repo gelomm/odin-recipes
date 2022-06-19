@@ -9,7 +9,7 @@ body{
     margin-right: auto;
     width: 10%;
 }
-.odin{ /*logo configuration*/
+.odin{ /*logo settings*/
     background-color: #0e4936;
     color: white;
     border: none;
@@ -40,114 +40,34 @@ h3{ /*best of odin*/
 }
 
 
-/**/
-
-    /*First button*/
-    .water{
-        background-color: #72bb78;
-        
-        border: none;
-        border-radius: 10%;
-        margin-top: 5px;
-        margin-left: 725px;
-        margin-right: 5px;
-    }
-    
-    /*Second button*/
-    .second{
-        background-color: #72bb78;
-        
-        border: none;
-        border-radius: 10%;
-        margin-top: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    
-    /*End of second button*/
-    
-    /*Third button*/
-    .third{
-        background-color: #72bb78;
-        
-        border: none;
-        border-radius: 10%;
-        margin-top: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    
-
-/*contact info links*/
-.tweet{
-    border: none;
-    background-color: #F5DF99;
-    display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
+/*display buttons horizontally*/
+.top{
+    display: flex;
 }
-.twttr{
+.top button{
+    background: #0e4936;
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    flex: 1 1 0%;
+}
+
+/*Contact info settings*/
+.tweet .twttr{
     height: 40px;
     width: 40px;
 }
-
-/*mobile view*/
-@media screen and (max-width: 600px ) {
-
-    /*recipe buttons*/
-
-    /*First button*/
-.water{
-    background-color: #72bb78;
-    display: block;
+/*Flex contact infos*/
+.cont{
+    display: flex;
+}
+.cont button{
     border: none;
-    border-radius: 10%;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
+    background: none;
+    flex: auto;
 }
 
-/*Second button*/
-.second{
-    background-color: #72bb78;
-    display: block;
-    border: none;
-    border-radius: 10%;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/*End of second button*/
-
-/*Third button*/
-.third{
-    background-color: #72bb78;
-    display: block;
-    border: none;
-    border-radius: 10%;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-    /*end of recipe buttons*/
-    .tweet{
-        border: none;
-        background-color: #F5DF99;
-        
-        margin-top: 50px;
-        margin-left: 20px;
-       
-    }
-    .twttr{
-        height: 30px;
-        width: 30px;
-    }
-    
-}
 
 
 
