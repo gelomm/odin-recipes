@@ -21,16 +21,16 @@ h1, h6{
     font-family: georgia;
 }
 .salad{
-    background-color: #0e4936;
+    background-color: #0e493644;
     color: white;
     border: none;
-    border-radius: 50px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+    backdrop-filter: blur(20px);
 }
 
+/*
 .melon{
     display: block;
     margin-left: auto;
@@ -41,19 +41,21 @@ h1, h6{
     border-radius: 20px;
     border-style: dotted;
     color: white;
-}
+}*/
 
 .desc{
+    margin-top: 250px;
     text-align: center;
-    background-color: #5FD068;
+    background-color: #5FD06844;
     color: white;
     border-bottom: dotted;
     border-top: dotted;
+    backdrop-filter: blur(20px);
 }
 /*needs to resize for mobile format*/
 .description{
     font-size: medium;
-    background-color: #4B8673;
+    background-color: #4B867388;
     color: white;
     border: none;
     border-radius: 25px;
@@ -61,6 +63,7 @@ h1, h6{
     margin-left: auto;
     margin-right: auto;
     width: 800px;
+    backdrop-filter: blur(20px);
 }
 
 .ing{

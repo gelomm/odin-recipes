@@ -32,12 +32,13 @@ h1, h6{/*odin rec and name*/
 
 h3{ /*best of odin*/
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .name-best{
-    background-color: #cccccc99;
+    background-color: #cccccc44;
     color: #0e4936;
+    backdrop-filter: blur(10px);
     font-weight: bolder;
     padding: 1px;
     margin-top: 5px;
@@ -81,7 +82,8 @@ h3{ /*best of odin*/
     display: flex;
 }
 .top button{
-    background: #0e493699;
+    background: #0e493644;
+    backdrop-filter: blur(10px);
     border: none;
     border-radius: 10px;
     margin: 5px;
