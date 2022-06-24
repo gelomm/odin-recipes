@@ -4,44 +4,45 @@ body, html{
     height: 100%;
     margin: 0;
 }
-.logo{ /*logo*/
-    border-radius: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
+
+.bes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.odin{ /*logo settings*/
-    background-color: #0e4936;
-    color: white;
-    border: none;
-    display: block;
-    border-radius: 50px;
-    margin-top: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 140px;
-}
-h1, h6{/*odin rec and name*/
-    
-    text-align: center;
+.best{
+    color: #0e4936;
     font-family: georgia;
     font-style: oblique;
-    
+    font-weight: 600;
+    font-size: medium;
+    background-color: #cccccc44;
+    padding: 5px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
 }
-
-h3{ /*best of odin*/
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.odin{
+    margin-left: 16px;
 }
-
-.name-best{
+.head{
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
     background-color: #cccccc44;
     color: #0e4936;
     backdrop-filter: blur(10px);
     font-weight: bolder;
     padding: 1px;
-    margin-top: 5px;
+    font-style: oblique;
+    font-family: georgia;
+
+}
+.head, .tweet{
+
 }
 
 .wtrmln, .tuna, 
@@ -68,7 +69,8 @@ h3{ /*best of odin*/
 /*display buttons horizontally*/
 .top{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
 }
 .top button{
     background: #0e493644;
@@ -85,11 +87,10 @@ h3{ /*best of odin*/
 .tweet .twttr{
     height: 40px;
     width: 40px;
-    margin-top: 45px;
-    margin-left: 10px;
+    margin-right: 16px;
     
 }
-/*Flex contact infos*/
+/*Flex contact infos
 .cont{
     background-color: #4B867399;
     margin: 0;
@@ -101,7 +102,7 @@ h3{ /*best of odin*/
     border: none;
     background: none;
     flex: auto;
-}
+}*/
 
 /*mobile view*/
 @media  (max-width: 600px) {
